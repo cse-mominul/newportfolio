@@ -6,10 +6,11 @@ import './Home.css'
 import fontpic from '../../Assets/fontpic.png'
 import About from '../About/About';
 import Skills from '../Skills/Skills';
+import Fotter from '../../Fotter/Fotter';
 const Home = () => {
     return (
-        <div>
-            <video src={videobg} autoPlay loop muted className='bg-vid w-full'></video>
+        <div id='home'>
+            <video  src={videobg} autoPlay loop muted className='bg-vid w-full'></video>
             <Navbar></Navbar>
             <section className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-evenly">
@@ -51,6 +52,7 @@ const Home = () => {
             </section>
             <About></About>
             <Skills></Skills>
+            <Fotter></Fotter>
         </div>
     );
 };
