@@ -1,0 +1,15 @@
+.bg-vid {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+.bg{
+    background-color: black;
+}
+@media only screen and (max-width: 600px) {
+    .bg-vid {
+        display: none;
+    }
+}
